@@ -4,11 +4,10 @@ function validate()
     var password=document.getElementById("password").value;
     if(username=="admin" && password=="1234")
     {
-        window.open("dashboard.html");
+       open("dashboard.html");
 
     }
     else{
         alert("Incorrect Username or Password");
-        window.open("index.html");
     }
 }

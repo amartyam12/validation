@@ -12,8 +12,13 @@ body{
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background:transparent;
+    /* background:transparent; */
+    background-color: #000;
+    opacity: 0.8;
     text-align: center;
+    border-radius: 20px;
+    border:2px solid white;
+    box-shadow: -10px 5px 9px 4px black;
 }
 .box h1{
     color: white;
@@ -37,6 +42,7 @@ body{
 .box input[type="text"]:focus,.box input[type="password"]:focus{
     width:300px ;
     border-color:yellow ;
+    margin:auto auto auto -12.3px;
 }
 .box input[type="submit"]{
     border: 0;
