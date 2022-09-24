@@ -62,3 +62,22 @@ body{
 .box input[type="submit"]:hover{
     background: blueviolet;
 }
+.box input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(103, 101, 218);
+    padding: 10px 5px;
+    width: 100px;
+    outline: none;
+    color:white;
+    border-radius: 26px;
+    transition: 0.25px;
+    cursor: pointer;
+    
+}
+.box input[type="button"]:hover{
+    background: blueviolet;
+}
