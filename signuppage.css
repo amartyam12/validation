@@ -1,0 +1,17 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+.main-box{
+    background-color:blueviolet;
+    border-radius: 50px;
+    box-shadow: 0px 10px 20px 10px blueviolet;
+}
+.signup{
+    color: blanchedalmond;
+    background-color: black;
+}
+.submit{
+    color: black;
+    background-color: dodgerblue;
+}
